@@ -1,72 +1,86 @@
 /*Main Background*/
+    
+body{
+    --Primary-Light-bg: #f9f5f2;
+    --Footer-Border: #dcd4c9;
+    --Example-Block-bg: #f3e9e2;
+    --Body-Text: #4a341c;
+    --Chart-bg: #efeae2;
+    --Note-bg: linear-gradient(45deg,#edd3df, #f5cfe1);
+    --Italics: #100b06;
+    --Start-Button:  #95e773;
+    --Start-Button-hover: radial-gradient(#95e773,#6de593);
+        
+    --Readability: 700px;
+}
+    
 element {
-    background-color: #f9f5f2 !important
+    background-color: var(--Primary-Light-bg) !important
 }
 
 body > main:nth-child(2) > div:nth-child(1) {
-    background-color: #f9f5f2 !important;
+    background-color: var(--Primary-Light-bg) !important;
 }
 
 main {
-    background: #f9f5f2;
+    background: var(--Primary-Light-bg) !important;
 }
 
 /*Bottom*/
 footer {
-  border-top: 3px #dcd4c9 double;
-  background: #f9f5f2;
+  border-top: 3px var(--Footer-Border) double;
+  background: var(--Primary-Light-bg) !important;
 }
 
 /*Top*/
 .breadcrumbs {
   padding: 1em;
-  background: #f9f5f2;
+  background: var(--Primary-Light-bg);
 }
 
 /*Example Blocks*/
 .examples {
-    background: #f3e9e2;
+    background: var(--Example-Block-bg);
 }
 
-/*Body Words*/
+/*Body Text*/
 :root {
---body-color: #4a341c;
+--body-color: var(--Body-Text);
 }
 
 /*Width of Artical*/
 .readable {
-max-width: 700px;
+max-width: var(--Readability);
 }
 
 
 .part2 {
-    background: #efeae2;
+    background: var(--Chart-bg);
 }
 
 /*Stems Charts*/
 .paradigm {
-  background: #efeae2;
+  background: var(--Chart-bg);
 }
 
 /*Note Block*/
 .note {
-    background: #f1d9d9;
-    background: linear-gradient(45deg,#edd3df, #f5cfe1) !important;
+    background: var(--Note-bg) !important;
 
 }
 
 /* Start Button*/
 .call-to-action {
-    background: #5aab74;
+    background: var(--Start-Button) !important;
 }
 .call-to-action:hover {
-    background: #5ecd82;
+    background: var(--Start-Button-hover) !important;
 }
 
 
 /*Italics*/
 em {
-	color: #100b06 !important;
+	color: var(--Italics) !important;
     
 }
 
@@ -83,8 +97,7 @@ em {
     a:visited {
         color: #35a3da;
     }
+    
 }
 
-
-
-
+}

@@ -1,0 +1,90 @@
+/*Main Background*/
+element {
+    background-color: #f9f5f2 !important
+}
+
+body > main:nth-child(2) > div:nth-child(1) {
+    background-color: #f9f5f2 !important;
+}
+
+main {
+    background: #f9f5f2;
+}
+
+/*Bottom*/
+footer {
+  border-top: 3px #dcd4c9 double;
+  background: #f9f5f2;
+}
+
+/*Top*/
+.breadcrumbs {
+  padding: 1em;
+  background: #f9f5f2;
+}
+
+/*Example Blocks*/
+.examples {
+    background: #f3e9e2;
+}
+
+/*Body Words*/
+:root {
+--body-color: #4a341c;
+}
+
+/*Width of Artical*/
+.readable {
+max-width: 700px;
+}
+
+
+.part2 {
+    background: #efeae2;
+}
+
+/*Stems Charts*/
+.paradigm {
+  background: #efeae2;
+}
+
+/*Note Block*/
+.note {
+    background: #f1d9d9;
+    background: linear-gradient(45deg,#edd3df, #f5cfe1) !important;
+
+}
+
+/* Start Button*/
+.call-to-action {
+    background: #5aab74;
+}
+.call-to-action:hover {
+    background: #5ecd82;
+}
+
+
+/*Italics*/
+em {
+	color: #100b06 !important;
+    
+}
+
+/*Links below the banner*/
+.pa2 {
+    a {
+        color: #22739b;
+
+    }
+    a:hover {
+        color: #26ba67;
+}
+
+    a:visited {
+        color: #35a3da;
+    }
+}
+
+
+
+

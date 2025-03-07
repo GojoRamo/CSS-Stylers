@@ -1,0 +1,134 @@
+/*Main Background*/
+    
+body{
+    --Primary-Light-bg: #2D271F;
+    --Top-Bottom-bg: #332b21;
+    --Footer-Border: #483e31;
+    --Example-Block-bg: #2A241D;
+    --Chart-bg: #352b1e;
+    --Note-bg: linear-gradient(45deg,#602138, #631f39);
+    --Italics: #d4b48f;
+    --Start-Button:  #95e773;
+    --Start-Button-hover: radial-gradient(#95e773,#6de593);
+        
+    --Readability: 700px;
+}
+    
+element {
+    background-color: var(--Primary-Light-bg) !important
+}
+
+body > main:nth-child(2) > div:nth-child(1) {
+    background-color: var(--Primary-Light-bg) !important;
+}
+
+main {
+    background: var(--Primary-Light-bg) !important;
+}
+
+/*Bottom*/
+footer {
+  border-top: 3px var(--Footer-Border) double;
+  background: var(--Top-Bottom-bg) !important;
+}
+
+/*Top*/
+.breadcrumbs {
+  padding: 1em;
+  background: var(--Top-Bottom-bg);
+  border-bottom: var(--Footer-Border) double;
+
+}
+
+
+/*Example Blocks*/
+.examples {
+    background: var(--Example-Block-bg);
+}
+
+/*Body Text*/
+:root {
+--body-color: #EBDAC7;
+}
+
+/*Width of Artical*/
+.readable {
+max-width: var(--Readability);
+}
+
+/* New Highlight*/
+.bg-yellow {
+background: #998b02;
+}
+.part2 {
+    background: var(--Chart-bg);
+}
+
+/*Stems Charts*/
+.paradigm {
+  background: var(--Chart-bg);
+}
+.paradigm th {
+  color: #f5cfa5;
+
+}
+
+/*Note Block*/
+.note {
+    background: var(--Note-bg) !important;
+
+}
+
+/* Extra Block */
+.true-aside {
+background: #2e4566;
+}
+
+/* Start Button*/
+.call-to-action {
+    background: var(--Start-Button) !important;
+}
+.call-to-action:hover {
+    background: var(--Start-Button-hover) !important;
+}
+
+
+/*Italics*/
+em {
+	color: var(--Italics) !important;
+    
+}
+
+/*Links below the banner*/
+.pa2 {
+    a {
+        color: #35a3da;
+
+    }
+    a:hover {
+        color: #26ba67;
+}
+
+    a:visited {
+        color: #22739b;
+    }
+    
+}
+
+/* Tables */
+.default td {
+background: #362940;
+}
+
+table.default:nth-child(6) > tbody:nth-child(1) > tr:nth-child(57) > td:nth-child(2) {
+background: #3f3746 !important;
+}
+
+table.default:nth-child(6) > tbody:nth-child(1) > tr:nth-child(32) > td:nth-child(2) {
+background: #3f3746 !important;
+}
+
+.default th, .sandhi th {
+    background: #31213d;
+    color: #d3a4f5;
+}

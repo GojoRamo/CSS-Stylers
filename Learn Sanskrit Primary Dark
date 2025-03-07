@@ -43,7 +43,7 @@ footer {
 
 /*Example Blocks*/
 .examples {
-    background: var(--Example-Block-bg);
+    background: var(--Example-Block-bg) !important;
 }
 
 /*Body Text*/

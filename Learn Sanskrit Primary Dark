@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name       Learn Sanskrit Primary Dark
+@version    20250307.00.10
+@namespace  ?
+==/UserStyle== */
+
+@-moz-document domain("www.learnsanskrit.org") {
 /*Main Background*/
     
 body{
@@ -91,6 +98,14 @@ background: #2e4566;
 .call-to-action:hover {
     background: var(--Start-Button-hover) !important;
 }
+    
+/* Prakriya Block */ 
+.prakriya {
+background: #322c23;
+}
+.prakriya .rule {
+color: #806f5c;
+}
 
 
 /*Italics*/
@@ -131,4 +146,5 @@ background: #3f3746 !important;
 .default th, .sandhi th {
     background: #31213d;
     color: #d3a4f5;
+}
 }

@@ -1,9 +1,3 @@
-/* ==UserStyle==
-@name       Learn Sanskrit Primary Dark
-@version    20250307.00.10
-@namespace  ?
-==/UserStyle== */
-
 @-moz-document domain("www.learnsanskrit.org") {
 /*Main Background*/
     
@@ -133,6 +127,8 @@ em {
 /* Tables */
 .default td {
 background: #362940;
+border-bottom: 1px #4e3b5d double;
+
 }
 
 table.default:nth-child(6) > tbody:nth-child(1) > tr:nth-child(57) > td:nth-child(2) {
@@ -145,6 +141,8 @@ background: #3f3746 !important;
 
 .default th, .sandhi th {
     background: #31213d;
-    color: #d3a4f5;
+    color: #b05fed;
+    border-bottom: 1px #8135b9 double;
+
 }
 }
